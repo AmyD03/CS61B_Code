@@ -10,7 +10,7 @@ public class DogProblem {
                 cnt++;
             }
         }
-        returnDogs = arrayWithNoNulls(dogs, cnt);
+        returnDogs = arrayWithNoNulls(returnDogs, cnt);
         return returnDogs;
     }
 
